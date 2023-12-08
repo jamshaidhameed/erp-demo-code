@@ -1,0 +1,295 @@
+.login_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../images/login_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login_form {
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  border-radius: 16px;
+  width: 30%;
+  background-color: var(--white);
+  padding: 8rem 10rem 7rem 10rem;
+  border: 2px solid var(--border-grey);
+}
+.login_form_icon {
+  color: var(--text-secondary);
+}
+.login_form label {
+  color: #363636 !important;
+}
+
+.auth_text_label {
+  color: var(--text-primary);
+  margin-block: 3rem;
+  font-size: 1.8rem;
+}
+.auth_text_label span {
+  color: var(--text-secondary);
+}
+
+.antd_authButton_custom {
+  /* background: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+  background: -webkit-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
+  background: -o-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
+  background: -moz-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
+  background: linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff); */
+  background: var(--bg-primary);
+  color: var(--white) !important;
+  width: 100% !important;
+  height: 40px !important;
+}
+
+.forgot_link {
+  color: var(--text-secondary);
+  padding-left: 5px;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  text-align: right;
+}
+
+.login_container label {
+  font-weight: bold;
+  color: #333333;
+  font-size: 20px;
+  height: 25px !important;
+}
+
+/*    Input Fields    */
+.select_field_label {
+  font-size: 1rem;
+  color: #333333;
+  height: 40px;
+  vertical-align: text-bottom;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  /* padding: 10px 0 8px; */
+}
+.select_field {
+  /* margin-bottom: 18px; */
+  padding: 0px;
+}
+.select_field .ant-select-selector {
+  height: 32px;
+}
+.switch_label {
+  font-size: 1rem;
+  color: #333333;
+  padding-right: 10px;
+}
+.chart_of_account_divider {
+  width: 95%;
+  padding-inline: 4rem;
+}
+
+/*    Custom Button   */
+.custom_button {
+  border-radius: 7px;
+  padding: 8px 15px;
+  border: none !important;
+  outline: none;
+  font-size: 1.4rem;
+  color: #fff;
+  height: auto !important;
+  text-align: center;
+}
+.custom_button_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+
+.custom_button_danger {
+  background-color: var(--bg-danger);
+}
+.custom_button_danger:hover {
+  background-color: var(--bg-danger-light) !important;
+}
+
+.btn_delete {
+  background-color: var(--bg-danger);
+}
+
+/*      AntD Table      */
+.ant-table {
+  font-family: 'Poppins', sans-serif !important;
+}
+.ant-table-cell {
+  padding: 14px 16px !important;
+}
+.ant-table-cell {
+  color: #676769;
+}
+.ant-pagination-item {
+  margin-top: 2px !important;
+}
+
+.ant-select-selector .ant-select-selection-search {
+  font-weight: 300;
+}
+
+/*      Form      */
+.page_title {
+  font-size: 1.8rem;
+  /* padding: 1rem 1.5rem 1rem 1.5rem; */
+  padding-block: 1.5rem;
+  font-weight: 500;
+  display: block;
+  width: 95%;
+}
+.custom_page_title {
+  padding-left: 2.3rem;
+  border-radius: 1rem;
+  background: var(--bg-grey-100);
+}
+
+/*    Custom Modal      */
+.ant-modal-header {
+  border-bottom: 1px solid rgba(5, 5, 5, 0.06);
+  padding-bottom: 1rem;
+}
+
+/*    TREE      */
+/* .ant-tree-treenode {
+  border-bottom: 1px solid var(--border-grey);
+} */
+.menu_action_items {
+  display: flex;
+}
+.list-menu-dropdown-options {
+  margin-block: 5px;
+}
+.custom_menu_primary {
+  background: var(--bg-primary) !important;
+  color: #fff !important;
+}
+.custom_menu_danger {
+  background: var(--bg-danger) !important;
+  color: #fff !important;
+}
+.custom_icon_primary {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.custom_icon_danger {
+  cursor: pointer;
+  color: var(--text-red);
+}
+.custom_action_menu_primary {
+  color: var(--bg-primary) !important;
+}
+.custom_action_menu_danger {
+  color: var(--bg-danger) !important;
+}
+
+.antd_input_switch_custom .ant-form-item-label > label {
+  padding: 0 !important;
+  height: 20px !important;
+}
+.subheader_location_container {
+  margin-bottom: 0;
+}
+/*        Search Input          */
+.custom_search_input_container {
+  padding-bottom: 1.5rem;
+  text-align: end;
+}
+.custom_search_input_content {
+  width: 300px;
+  position: relative;
+}
+.custom_table_card_user_accounts {
+  box-shadow: none;
+}
+.custom_search_input input {
+  border-radius: 10px;
+  padding: 8px 8px 10px 35px;
+  box-shadow: none;
+  outline: none;
+  border: 1px solid var(--border-grey);
+  width: 300px;
+}
+.custom_search_input input:focus-visible {
+  outline: none;
+}
+
+.custom_search_icon {
+  position: absolute;
+  top: 48%;
+  left: 17%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: #9899ac;
+}
+.antd-dateInput-custom {
+  width: 100%;
+}
+.menu_action_items span {
+  cursor: pointer;
+}
+.custom_checkbox {
+  margin-bottom: 0;
+}
+.chart_of_accounts_report_level {
+  margin-bottom: 0;
+}
+.chart_of_account-select-field {
+  margin-bottom: 0;
+}
+.ant-modal-confirm-btns .ant-btn-dangerous {
+  color: var(--text-red) !important;
+}
+.antd-selectInput-custom {
+  font-size: 1.5rem !important;
+}
+.journal_voucher_table_summary {
+  background-color: var(--bg-grey-100);
+}
+
+.journal_voucher_table_summary .ant-table-cell {
+  color: rgba(0, 0, 0, 0.88);
+  font-weight: 600;
+}
+
+.antd-input-custom {
+  font-size: 1.4rem;
+  font-weight: 300;
+  width: 100%;
+}
+.cheque_format_form {
+  padding: 1rem 2rem 2rem 2rem;
+}
+.cheque_format_form_heading {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #333333;
+}
+.cheque_format_form h5 {
+}
+
+.cheque_format_form-input {
+  width: 100%;
+}
+.cheque_format_form-input input {
+  height: 20px !important;
+}
+.cheque_format_form .ant-form-item {
+  margin-bottom: 0;
+}
+
+.journal_voucher .ant-form-item {
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.bank_master_active {
+  margin-bottom: 0;
+}

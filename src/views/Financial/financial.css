@@ -1,0 +1,6 @@
+.chart_account_header-btn-save {
+  background-color: var(--bg-primary);
+}
+.chart_account_header-btn-delete {
+  background-color: var(--bg-danger);
+}

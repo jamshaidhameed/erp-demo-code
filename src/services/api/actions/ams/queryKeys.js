@@ -1,0 +1,1 @@
+export const AMS_CC_SELECT_LIST = 'AMS_CC_SELECT_LIST';

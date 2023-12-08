@@ -1,0 +1,56 @@
+@media (max-width: 1600px) {
+  .responsive_datepicker {
+    /* height: 200px !important; */
+    inset: 150.062px auto auto 400.172px !important;
+  }
+}
+
+@media (max-width: 1390px) {
+  .jv-subheader-menu {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1367px) {
+  .responsive_datepicker {
+    /* height: 200px !important; */
+    inset: 25% auto auto 40% !important;
+  }
+}
+
+@media (max-width: 1100px) {
+  .jv-subheader-menu {
+    width: auto;
+  }
+  .jv-subheader-menu > .btn-desktop-view {
+    display: none !important;
+  }
+
+  .jv-subheader-menu > .btn-mobile-view {
+    display: inline-flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn-mobile-view {
+    display: inline-flex;
+    align-items: center;
+  }
+  .btn-mobile-view .anticon {
+    vertical-align: 0;
+  }
+  .btn-desktop-view {
+    display: none !important;
+  }
+
+  .responsive_datepicker {
+    inset: 35% auto auto 30% !important;
+  }
+}
+
+@media (max-width: 592px) {
+  .responsive_datepicker {
+    inset: 35% auto auto 20% !important;
+  }
+}

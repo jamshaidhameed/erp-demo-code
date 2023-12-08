@@ -1,0 +1,126 @@
+/*  font family   */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+a {
+  text-decoration: none !important;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+  background-color: var(--bg-app) !important;
+}
+/* Reset styles */
+
+/*      Util classes   */
+.px-8 {
+  padding-inline: 5rem;
+}
+/*    Header Menu     */
+
+.header_menu {
+  padding-left: 10px;
+  font-size: 16px;
+}
+.header_menu_item {
+  padding: 7px 15px;
+  border-radius: 7px;
+  color: #5e6278;
+}
+.header_menu-active {
+  background-color: #f1faff;
+  color: #009ef7;
+}
+/*    Dashboard Cards     */
+.home_cards_container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.home_cards {
+  padding-top: 5rem;
+  width: 90%;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+.home_card {
+  cursor: pointer;
+  border-radius: 10px;
+  width: 160px;
+  height: 160px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+  display: flex;
+  justify-content: stretch;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 30px 1.5rem 2rem 1.5rem;
+}
+.home_card-title {
+  font-size: 1.6rem;
+  color: var(--text-primary);
+  line-height: 2.2rem;
+}
+.home_card_icon {
+  color: var(--text-secondary);
+  font-size: 30px;
+}
+.sub-header-menu .page_header_button {
+  padding-inline: 20px;
+  padding-block: 8px;
+  border: none;
+  border-radius: 7px;
+  background: #009ef7;
+  color: #fff;
+  min-width: 75px;
+}
+
+/* width */
+.custom_scroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.custom_scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+.custom_scroll::-webkit-scrollbar-thumb {
+  background: #bfbfbf;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.custom_scroll::-webkit-scrollbar-thumb:hover {
+  background: #a6a6a6;
+}
+
+.ant-tree-title {
+  text-transform: capitalize;
+}

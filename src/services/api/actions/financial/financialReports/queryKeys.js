@@ -1,0 +1,1 @@
+export const FL_FR_UDFA_GET_LIST = 'FL_FR_UDFA_GET_LIST';

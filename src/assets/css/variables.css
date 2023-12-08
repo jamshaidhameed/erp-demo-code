@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #009ef7;
+    --white: #ffffff;
+
+    /*      Text Colors         */
+    --text-primary: #5e6278;
+    --text-grey-dark: #212529;
+    --text-red: #f1416c;
+    --text-secondary: #009ef7;
+
+    /*      Backgrounds         */
+    --bg-app: #f5f8fa;
+    --bg-primary: #009ef7;
+    --bg-primary-light: #f1faff;
+    --bg-danger: #f1416c;
+    --bg-danger-light: #f77696;
+    --bg-grey-100: #f2f2f2;
+
+    /*      Cards           */
+    --bg-red-light: #f1416c; 
+
+    /*          Border          */
+    --border-grey: rgb(239, 242, 245);
+
+}

@@ -1,0 +1,16 @@
+// layout
+export const UPDATE_APP_LAYOUT = 'UPDATE_APP_LAYOUT';
+
+// loader
+export const UPDATE_APP_LOADER = 'UPDATE_APP_LOADER';
+export const UPDATE_PAGE_LOADER = 'UPDATE_PAGE_LOADER';
+
+// auth
+export const LOGOUT = 'LOGOUT';
+export const UPDATE_AUTH = 'UPDATE_AUTH';
+
+// configs
+export const UPDATE_BASE_URLS = 'UPDATE_BASE_URLS';
+export const RESET_ORGANIZATION_DETAILS = 'RESET_ORGANIZATION_DETAILS';
+export const UPDATE_LOCATIONS = 'UPDATE_LOCATIONS';
+export const UPDATE_LOCATION = 'UPDATE_LOCATION';
